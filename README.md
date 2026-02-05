@@ -7,7 +7,7 @@ Modern, high-performance portfolio website for a GeoAI Full Stack Developer buil
 ## 🌐 Deployment
 
 **Platform**: Vercel  
-**Live URL**: [https://varshiniportfolio-nine.vercel.app](https://varshiniportfolio-nine.vercel.app)  
+**Live URL**: [portfolio-seven-eta-19.vercel.app](portfolio-seven-eta-19.vercel.app)  
 **Status**: ✅ Active
 
 Deployed using Vercel's automatic GitHub integration. Every push to the main branch triggers a new deployment.
@@ -155,11 +155,11 @@ Contributions are welcome! Feel free to submit issues or pull requests.
 
 **Varshini Jayaprabhu**
 
-- 🌐 Portfolio: [https://varshiniportfolio-nine.vercel.app](https://varshiniportfolio-nine.vercel.app)
-- 📧 Email: varshinij572@gmail.com
+- 🌐 Portfolio: [portfolio-seven-eta-19.vercel.app](portfolio-seven-eta-19.vercel.app)
+- 📧 Email: varshini.j.512004@gmail.com
 - 💼 GitHub: [@varshinijayaprabhu](https://github.com/varshinijayaprabhu)
 - 🔗 LinkedIn: [Varshini Jayaprabhu](https://www.linkedin.com/in/varshini-jayaprabhu)
 
 ---
 
-**Made with ❤️ using React + Vite**
+**Made with React + Vite**
