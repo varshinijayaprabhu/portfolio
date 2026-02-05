@@ -730,10 +730,7 @@ section {
 .project-links {
   display: flex;
   gap: 1rem;
-}
-
-.timeline-item.left .project-links {
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .project-link {

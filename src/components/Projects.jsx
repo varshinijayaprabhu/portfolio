@@ -112,46 +112,61 @@ export default function Projects() {
                   </a>
                 )}
                 {project.demo && project.demo !== "#" && (
-                  <a href={project.demo} target="_blank" rel="noopener noreferrer" className="project-link" title="View Demo" aria-label={`View ${project.title} Live Demo`}>
-                    <img 
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" 
-                      alt="" 
-                      style={{ width: '28px', height: '28px' }}
-                      loading="lazy"
-                    />
-                  </a>
+                  <>
+                    <a href={project.demo} target="_blank" rel="noopener noreferrer" className="project-link" title="View Demo" aria-label={`View ${project.title} Live Demo`}>
+                      <img 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" 
+                        alt="" 
+                        style={{ width: '28px', height: '28px' }}
+                        loading="lazy"
+                      />
+                    </a>
+                    <span style={{ fontSize: '0.9rem', fontWeight: '500', color: '#915eff', display: 'flex', alignItems: 'center' }}>Deployed</span>
+                  </>
                 )}
                 {project.status === "Ongoing" && (
-                  <div className="project-link" title="Ongoing Project" style={{ cursor: 'default', background: 'rgba(255, 165, 0, 0.15)', borderColor: 'rgba(255, 165, 0, 0.3)' }}>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffa500" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <circle cx="12" cy="12" r="10"></circle>
-                      <polyline points="12 6 12 12 16 14"></polyline>
-                    </svg>
-                  </div>
+                  <>
+                    <div className="project-link" title="Ongoing Project" style={{ cursor: 'default', background: 'rgba(255, 165, 0, 0.15)', borderColor: 'rgba(255, 165, 0, 0.3)' }}>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffa500" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                      </svg>
+                    </div>
+                    <span style={{ fontSize: '0.9rem', fontWeight: '500', color: '#ffa500', display: 'flex', alignItems: 'center' }}>Work in Progress</span>
+                  </>
                 )}
                 {project.status === "Hackathon" && (
-                  <div className="project-link" title="Hackathon Project" style={{ cursor: 'default', background: 'rgba(255, 215, 0, 0.15)', borderColor: 'rgba(255, 215, 0, 0.3)' }}>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffd700" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M8 21h8m-4-9v9m0-9a5 5 0 0 1-5-5V3a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v4a5 5 0 0 1-5 5Z" />
-                      <line x1="4" y1="9" x2="20" y2="9" />
-                    </svg>
-                  </div>
+                  <>
+                    <div className="project-link" title="Hackathon Project" style={{ cursor: 'default', background: 'rgba(255, 215, 0, 0.15)', borderColor: 'rgba(255, 215, 0, 0.3)' }}>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ffd700" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M8 21h8m-4-9v9m0-9a5 5 0 0 1-5-5V3a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v4a5 5 0 0 1-5 5Z" />
+                        <line x1="4" y1="9" x2="20" y2="9" />
+                      </svg>
+                    </div>
+                    <span style={{ fontSize: '0.9rem', fontWeight: '500', color: '#ffd700', display: 'flex', alignItems: 'center' }}>Hackathon Project</span>
+                  </>
                 )}
                 {project.status === "College" && (
-                  <div className="project-link" title="College Project" style={{ cursor: 'default', background: 'rgba(30, 144, 255, 0.15)', borderColor: 'rgba(30, 144, 255, 0.3)' }}>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1e90ff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
-                      <path d="M6 12v5c3 3 9 3 12 0v-5"/>
-                    </svg>
-                  </div>
+                  <>
+                    <div className="project-link" title="College Project" style={{ cursor: 'default', background: 'rgba(30, 144, 255, 0.15)', borderColor: 'rgba(30, 144, 255, 0.3)' }}>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1e90ff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                        <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                      </svg>
+                    </div>
+                    <span style={{ fontSize: '0.9rem', fontWeight: '500', color: '#1e90ff', display: 'flex', alignItems: 'center' }}>College Level Project</span>
+                  </>
                 )}
                 {project.status === "Internship" && (
-                  <div className="project-link" title="Internship Project" style={{ cursor: 'default', background: 'rgba(50, 205, 50, 0.15)', borderColor: 'rgba(50, 205, 50, 0.3)' }}>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#32cd32" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-                    </svg>
-                  </div>
+                  <>
+                    <div className="project-link" title="Internship Project" style={{ cursor: 'default', background: 'rgba(50, 205, 50, 0.15)', borderColor: 'rgba(50, 205, 50, 0.3)' }}>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#32cd32" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                      </svg>
+                    </div>
+                    <span style={{ fontSize: '0.9rem', fontWeight: '500', color: '#32cd32', display: 'flex', alignItems: 'center' }}>Internship Project</span>
+                  </>
                 )}
               </div>
             </motion.div>
