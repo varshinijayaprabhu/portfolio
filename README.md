@@ -10,7 +10,7 @@
 [![Vite](https://img.shields.io/badge/Vite-7.3-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-[**Live Demo**](https://your-portfolio.vercel.app) · [**Report Bug**](../../issues) · [**Request Feature**](../../issues)
+[**Live Demo**](https://varshiniportfolio-nine.vercel.app) · [**Report Bug**](../../issues) · [**Request Feature**](../../issues)
 
 </div>
 
@@ -269,10 +269,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Your Name**
+**Varshini Jayaprabhu**
 
-- Website: [your-portfolio.vercel.app](https://your-portfolio.vercel.app)
-- GitHub: [@yourusername](https://github.com/yourusername)
+- Website: [varshiniportfolio-nine.vercel.app](https://varshiniportfolio-nine.vercel.app)
+- GitHub: [@varshinijayaprabhu](https://github.com/varshinijayaprabhu)
 - LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
 - Email: your.email@example.com
 
